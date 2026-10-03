@@ -1,0 +1,5 @@
+Run v1 (2026-10-03 21:18-21:40 UTC) is DISCARDED - see discarded/.
+Its universe filter admitted majors (it bought SOL/USDC and wNEAR/DARK), which
+a lottery-ticket bot should never hold. Fixed: base token cannot be a major or
+stable, quote must be SOL/USDC, pool age capped at 120 days.
+Run v2 starts after that fix. Only v2 rows are real.
