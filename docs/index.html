@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Bot</title><meta http-equiv="refresh" content="30">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0A0B0D;color:#E8E8E8;font-family:'IBM Plex Sans',-apple-system,
+ 'Segoe UI',sans-serif;padding:28px 20px 60px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1100px;margin:0 auto}
+.eyebrow{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;
+ letter-spacing:.16em;color:#00B366;text-transform:uppercase;margin-bottom:10px}
+h1{font-size:26px;font-weight:600;letter-spacing:-.015em;margin-bottom:4px}
+.sub{color:#8A8F98;font-size:13px;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+ gap:10px;margin-bottom:22px}
+.card{background:#111316;border:1px solid #1F242C;border-radius:5px;padding:14px 16px}
+.lab{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.14em;
+ color:#555962;text-transform:uppercase;margin-bottom:7px}
+.val{font-family:'IBM Plex Mono',monospace;font-size:22px;font-weight:600;
+ letter-spacing:-.02em}
+.g{color:#00FF88}.r{color:#FF3355}.a{color:#F5A623}.m{color:#8A8F98}
+h2{font-size:12px;font-family:'IBM Plex Mono',monospace;letter-spacing:.14em;
+ text-transform:uppercase;color:#8A8F98;margin:26px 0 10px}
+table{width:100%;border-collapse:collapse;background:#111316;
+ border:1px solid #1F242C;border-radius:5px;overflow:hidden}
+th{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.12em;
+ text-transform:uppercase;color:#555962;text-align:left;padding:10px 12px;
+ border-bottom:1px solid #1F242C;font-weight:500}
+td{padding:9px 12px;font-size:13px;border-bottom:1px solid #15181C}
+tr:last-child td{border-bottom:none}
+td.n{font-family:'IBM Plex Mono',monospace;text-align:right}
+.note{background:#151820;border:1px solid #2A3038;border-left:2px solid #F5A623;
+ border-radius:4px;padding:12px 14px;color:#8A8F98;font-size:12.5px;
+ line-height:1.6;margin-top:26px}
+.note b{color:#E8E8E8;font-weight:600}
+.foot{color:#555962;font-size:11px;font-family:'IBM Plex Mono',monospace;
+ margin-top:22px}
+@media(max-width:640px){body{padding:18px 16px 40px}h1{font-size:21px}}
+</style></head><body><div class="wrap">
+<div class="eyebrow">Onchain / Track D &middot; Paper</div>
+<h1>Memecoin paper bot</h1>
+<div class="sub">$6 clips on $300 &middot; stop &minus;35% &middot; no take profit
+&middot; 72h time stop &middot; max 15 open &middot; <b>no real money</b></div>
+<div class="grid"><div class="card"><div class="lab">Equity</div><div class="val g">$301.26</div></div><div class="card"><div class="lab">Return</div><div class="val g">+0.42%</div></div><div class="card"><div class="lab">Realised</div><div class="val m">$+0.00</div></div><div class="card"><div class="lab">Unrealised</div><div class="val g">$+1.26</div></div><div class="card"><div class="lab">Open P&L %</div><div class="val g">+2.33%</div></div><div class="card"><div class="lab">Open</div><div class="val m">9</div></div><div class="card"><div class="lab">Closed</div><div class="val m">0</div></div><div class="card"><div class="lab">Win rate</div><div class="val m">--</div></div><div class="card"><div class="lab">Stopped</div><div class="val m">0</div></div><div class="card"><div class="lab">Running</div><div class="val m">0.8h</div></div></div>
+<h2>Open positions &mdash; live mark</h2>
+<table><tr><th>Name</th><th>Size</th><th>Entry</th><th>Last</th><th>P&amp;L %</th>
+<th>P&amp;L $</th><th>To stop</th><th>Time left</th></tr><tr><td>www / SOL</td><td class="n">$6.00</td><td class="n">8.258e-04</td><td class="n">1.157e-03</td><td class="n g">+40.1%</td><td class="n g">$+2.41</td><td class="n m">+116%</td><td class="n m">71h</td></tr><tr><td>STONK / USDC</td><td class="n">$6.00</td><td class="n">2.092e-01</td><td class="n">2.104e-01</td><td class="n g">+0.6%</td><td class="n g">$+0.03</td><td class="n m">+55%</td><td class="n m">72h</td></tr><tr><td>swordcat / SOL</td><td class="n">$6.00</td><td class="n">2.739e-03</td><td class="n">2.754e-03</td><td class="n g">+0.5%</td><td class="n g">$+0.03</td><td class="n m">+55%</td><td class="n m">71h</td></tr><tr><td>PEPE / SOL</td><td class="n">$6.00</td><td class="n">4.318e-06</td><td class="n">4.321e-06</td><td class="n g">+0.0%</td><td class="n g">$+0.00</td><td class="n m">+54%</td><td class="n m">71h</td></tr><tr><td>OCTO / SOL</td><td class="n">$6.00</td><td class="n">3.027e-03</td><td class="n">3.019e-03</td><td class="n r">-0.2%</td><td class="n r">$-0.01</td><td class="n m">+53%</td><td class="n m">72h</td></tr><tr><td>PAID / SOL</td><td class="n">$6.00</td><td class="n">7.002e-03</td><td class="n">6.848e-03</td><td class="n r">-2.2%</td><td class="n r">$-0.13</td><td class="n m">+50%</td><td class="n m">71h</td></tr><tr><td>SI / USDC</td><td class="n">$6.00</td><td class="n">4.130e-02</td><td class="n">4.019e-02</td><td class="n r">-2.7%</td><td class="n r">$-0.16</td><td class="n m">+50%</td><td class="n m">71h</td></tr><tr><td>MASK / SOL</td><td class="n">$6.00</td><td class="n">4.410e-02</td><td class="n">4.185e-02</td><td class="n r">-5.1%</td><td class="n r">$-0.31</td><td class="n m">+46%</td><td class="n m">72h</td></tr><tr><td>HOOKED / SOL</td><td class="n">$6.00</td><td class="n">1.028e-02</td><td class="n">9.238e-03</td><td class="n r">-10.2%</td><td class="n r">$-0.61</td><td class="n m">+38%</td><td class="n m">71h</td></tr></table>
+<h2>Closed trades</h2>
+<table><tr><th>Name</th><th>Return</th><th>P&amp;L</th><th>Exit</th><th>When</th></tr>
+<tr><td colspan="5" class="m">no exits yet &mdash; positions run to a &minus;35% stop or a 72h time stop</td></tr></table>
+<div class="note"><b>0 of ~20 closed trades.</b> Too few to mean anything. No confidence interval is shown until there are enough, because a tight-looking interval on overlapping samples is exactly how the earlier backtests fooled me.<br><br>
+This bot does not predict. Four tests on 2026-10-03 found no observable
+price or volume state that buys directional edge &mdash; the upside/downside
+excursion ratio sits near 1.15 whatever you condition on. So it takes many
+small shots, never concentrates, and caps nothing on the upside. The log is
+the deliverable: forward data carries no survivorship bias, which is the
+defect that contaminated every historical test.</div>
+<div class="foot">auto-refresh 30s &middot; 2026-10-03 22:18 UTC</div>
+</div></body></html>

@@ -1,0 +1,27 @@
+STEP 1  Make the repo (browser, 20 seconds)
+        https://github.com/new
+        Name: noxar-paperbot    Visibility: PUBLIC    Do NOT tick any
+        "initialize with README/gitignore/licence" boxes.
+
+STEP 2  Refresh the state from tonight's local run, then push.
+        Open a terminal in C:\Users\thoma\Desktop\noxar-paperbot and run:
+
+          copy /Y "C:\Users\thoma\Desktop\onchain\data\trackd\state.json"  data\trackd\
+          copy /Y "C:\Users\thoma\Desktop\onchain\data\trackd\fills.jsonl" data\trackd\
+          git add -A
+          git commit -m "sync state before handing over to Actions"
+          git branch -M main
+          git remote add origin https://github.com/<YOUR-USERNAME>/noxar-paperbot.git
+          git push -u origin main
+
+STEP 3  Turn on the dashboard
+        Repo -> Settings -> Pages -> Source: "Deploy from a branch"
+        Branch: main,  folder: /docs  -> Save
+        It appears at https://<YOUR-USERNAME>.github.io/noxar-paperbot/
+
+STEP 4  Kick it off
+        Repo -> Actions tab -> "paper bot" -> "Run workflow"
+        (the 15-minute cron starts by itself, this just avoids waiting)
+
+THEN    Do not run the local loop any more. Actions owns state.json from now on.
+        If you ever want it local again, pull first so you do not lose ticks.
