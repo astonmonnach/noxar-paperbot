@@ -32,28 +32,36 @@ jobs:
       # remote, run the cycle on that state, push, and on rejection start over
       # from the new head. The bot is deterministic given its input state, so
       # re-running is always safe.
-      - name: Tick and publish
+      # GitHub throttles scheduled workflows hard: this repo asked for a tick
+      # every 15 minutes and got one every 136 on average, with a 341-minute
+      # gap overnight. A position then sat unwatched and exited 27 points below
+      # its stop. So each job now POLLS INTERNALLY for ~50 minutes instead of
+      # doing one cycle, which makes coverage depend on job runtime rather than
+      # on cron punctuality. The concurrency group keeps at most one running
+      # plus one queued, so a queued job takes over as this one finishes.
+      - name: Poll for ~50 minutes
+        timeout-minutes: 55
         run: |
           set -e
           git config user.name  "paper-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for attempt in 1 2 3; do
-            git fetch origin "${{ github.ref_name }}"
-            git reset --hard "origin/${{ github.ref_name }}"
-            python -m trackD.bot --once
-            python -m trackD.dashboard --static docs/index.html
-            git add data/trackd/state.json data/trackd/fills.jsonl docs/index.html
-            if git diff --staged --quiet; then
-              echo "nothing changed"
-              exit 0
-            fi
-            git commit -m "tick $(date -u +%Y-%m-%dT%H:%M)"
-            if git push; then
-              echo "pushed on attempt $attempt"
-              exit 0
-            fi
-            echo "push rejected - another tick landed first, retrying"
-            sleep 5
+          END=$(( SECONDS + 3000 ))
+          while [ $SECONDS -lt $END ]; do
+            for attempt in 1 2 3; do
+              git fetch -q origin "${{ github.ref_name }}"
+              git reset --hard -q "origin/${{ github.ref_name }}"
+              python -m trackD.bot --once
+              python -m trackD.dashboard --static docs/index.html
+              git add data/trackd/state.json data/trackd/fills.jsonl docs/index.html
+              if git diff --staged --quiet; then
+                echo "nothing changed"
+                break
+              fi
+              git commit -q -m "tick $(date -u +%Y-%m-%dT%H:%M)"
+              if git push -q; then break; fi
+              echo "push rejected, retrying from new head"
+              sleep 5
+            done
+            sleep 300
           done
-          echo "could not push after 3 attempts"
-          exit 1
+          echo "job window finished"

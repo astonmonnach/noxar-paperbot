@@ -53,6 +53,7 @@ TRAIL = 0.30            # then exit 30% below the high-water mark
 # it does not create edge - every exit rule tested still has a negative mean.
 TIME_STOP_H = 72        # give the right tail time to show up
 MAX_NEW_PER_CYCLE = 3
+REENTRY_COOLDOWN_H = 48   # after closing a token, do not buy it back for 48h
 COST_SIDE = 0.0025      # direct Jupiter, per side
 # universe gates: liquid enough to exit, old enough not to be a fresh rug
 MIN_LIQ, MAX_LIQ = 20_000, 400_000
@@ -103,7 +104,8 @@ def load_state() -> dict:
     if STATE.exists():
         return json.loads(STATE.read_text())
     return {"equity": START_EQUITY, "cash": START_EQUITY, "open": {},
-            "closed": 0, "realised": 0.0, "started": datetime.now(timezone.utc).isoformat()}
+            "closed": 0, "realised": 0.0, "recent_exits": {},
+            "started": datetime.now(timezone.utc).isoformat()}
 
 
 def save_state(s: dict) -> None:
@@ -195,6 +197,9 @@ def cycle(state: dict, dry: bool) -> None:
             state["realised"] += pnl
             state["closed"] += 1
             del open_pos[key]
+            # stopping out of a coin and buying it straight back is the worst
+            # of both: you take the loss and re-enter the same falling knife
+            state.setdefault("recent_exits", {})[pos.base or pos.pool] = now.isoformat()
             rec = {"t": now.isoformat(), "event": "exit", "reason": reason,
                    "pool": pos.pool, "name": pos.name, "entry_px": pos.entry_px,
                    "exit_px": px, "size_usd": pos.size_usd, "pnl": pnl}
@@ -206,6 +211,14 @@ def cycle(state: dict, dry: bool) -> None:
     room = MAX_OPEN - len(open_pos)
     if room > 0:
         held_bases = {p.base for p in open_pos.values()}
+        cooling = set()
+        for b, t in (state.get("recent_exits") or {}).items():
+            try:
+                if (now - datetime.fromisoformat(t)).total_seconds() < REENTRY_COOLDOWN_H * 3600:
+                    cooling.add(b)
+            except Exception:
+                pass
+        held_bases |= cooling
         cands = [c for c in universe()
                  if c["pool"] not in open_pos and c["px"] > 0
                  and c["base"] not in held_bases]
@@ -235,6 +248,10 @@ def cycle(state: dict, dry: bool) -> None:
             print(f"  ENTRY {str(c['name'])[:22]:24} ${clip:.2f} @ {fill:.3e}  "
                   f"liq ${c['liq']:,.0f}")
 
+    # forget cooldowns that have expired so the dict cannot grow without bound
+    state["recent_exits"] = {
+        b: t for b, t in (state.get("recent_exits") or {}).items()
+        if (now - datetime.fromisoformat(t)).total_seconds() < REENTRY_COOLDOWN_H * 3600}
     state["open"] = {k: asdict(v) for k, v in open_pos.items()}
     mtm = sum(p.size_usd * (p.last_px / p.entry_px if p.last_px > 0 else 1.0)
               for p in open_pos.values())
