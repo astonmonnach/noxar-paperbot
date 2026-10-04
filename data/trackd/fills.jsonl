@@ -23,3 +23,4 @@
 {"t": "2026-10-04T18:08:53.402186+00:00", "event": "entry", "pool": "DreMAMRc83uJtbvWuWrDqDaQUGHDbFGopmbTYbM3tJFW", "name": "knightcat / SOL", "px": 0.003365204741367344, "size_usd": 6.0, "liq": 199350.97, "age_h": 24.074628289166665}
 {"t": "2026-10-04T18:30:28.572472+00:00", "event": "entry", "pool": "BN7CfsGm6Vq9w8NibLZXRGW2tp5y2axwXuLAs85NGakf", "name": "baton / SOL", "px": 0.009253207305008442, "size_usd": 6.0, "liq": 314695.7375, "age_h": 592.3021033977778}
 {"t": "2026-10-04T19:14:41.479233+00:00", "event": "entry", "pool": "HRhgfZpzapYZNY9QwBN2CS4j3ftxgAySYWjFaUa1g7KH", "name": "SPEC / SOL", "px": 0.0009556143921235879, "size_usd": 6.0, "liq": 49762.1539, "age_h": 24.221732621944447}
+{"t": "2026-10-04T19:59:40.476868+00:00", "event": "exit", "reason": "stop", "pool": "HRhgfZpzapYZNY9QwBN2CS4j3ftxgAySYWjFaUa1g7KH", "name": "SPEC / SOL", "entry_px": 0.0009556143921235879, "exit_px": 0.000616149458150589, "size_usd": 6.0, "pnl": -2.1410642855257893}
