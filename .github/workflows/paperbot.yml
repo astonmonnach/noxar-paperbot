@@ -39,13 +39,18 @@ jobs:
       # doing one cycle, which makes coverage depend on job runtime rather than
       # on cron punctuality. The concurrency group keeps at most one running
       # plus one queued, so a queued job takes over as this one finishes.
-      - name: Poll for ~50 minutes
-        timeout-minutes: 55
+      # Observed: the */15 cron actually fires about every 6 HOURS on this repo.
+      # Internal polling only covers the time a job is alive, so a 50-minute job
+      # left 5-hour holes. Each job now runs for ~5.5h (the 6h job cap is the
+      # real limit), which closes the gaps without needing a PAT - the built-in
+      # GITHUB_TOKEN is not allowed to re-dispatch a workflow.
+      - name: Poll for ~5.5 hours
+        timeout-minutes: 350
         run: |
           set -e
           git config user.name  "paper-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          END=$(( SECONDS + 3000 ))
+          END=$(( SECONDS + 19500 ))
           while [ $SECONDS -lt $END ]; do
             for attempt in 1 2 3; do
               git fetch -q origin "${{ github.ref_name }}"
