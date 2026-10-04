@@ -51,8 +51,10 @@ jobs:
               git fetch -q origin "${{ github.ref_name }}"
               git reset --hard -q "origin/${{ github.ref_name }}"
               python -m trackD.bot --once
+              python -m trackD.trending --once || true
               python -m trackD.dashboard --static docs/index.html
               git add data/trackd/state.json data/trackd/fills.jsonl docs/index.html
+              git add data/trending/snapshots.jsonl 2>/dev/null || true
               if git diff --staged --quiet; then
                 echo "nothing changed"
                 break
