@@ -39,3 +39,4 @@
 {"t": "2026-10-05T18:44:19.730739+00:00", "event": "entry", "pool": "HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o", "name": "AGENTCAT / SOL", "px": 0.001268825440639613, "size_usd": 6.0, "liq": 112130.5932, "age_h": 43.87821649611111}
 {"t": "2026-10-05T19:42:17.371382+00:00", "event": "entry", "pool": "BYNX3AtGxGqmRfg7Nzvocr9rpuU4FfqNuW3f3FiaKsYv", "name": "Ash / SOL", "px": 0.0005698050911885079, "size_usd": 6.0, "liq": 73719.5942, "age_h": 27.899169762222222}
 {"t": "2026-10-05T20:26:29.551531+00:00", "event": "exit", "reason": "stop", "pool": "HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o", "name": "AGENTCAT / SOL", "entry_px": 0.001268825440639613, "exit_px": 0.00037845613403876684, "size_usd": 6.0, "pnl": -4.214837211113763}
+{"t": "2026-10-05T20:55:41.297698+00:00", "event": "entry", "pool": "43AA86sWUMiN7YrkE1pYGVRjk9CwieGnjtBD6X8oLAyV", "name": "Human / SOL", "px": 0.0013222438417936693, "size_usd": 6.0, "liq": 21124.241, "age_h": 24.017214629722222}
