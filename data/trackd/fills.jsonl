@@ -36,3 +36,4 @@
 {"t": "2026-10-05T14:37:21.027753+00:00", "event": "exit", "reason": "stop", "pool": "BFrSZakeqNzVtM3EFhroo4eRhagmmWN8BRntiQKFH6Ru", "name": "HIGGS / SOL", "entry_px": 0.0014328686670575762, "exit_px": 0.0009195243349687251, "size_usd": 6.0, "pnl": -2.1592061636122843}
 {"t": "2026-10-05T18:23:07.181557+00:00", "event": "entry", "pool": "6y4XDuhPsUnzEgupwBkeBFeWH98U6fgQo1UUS7U7xXZQ", "name": "SHIB / USDC", "px": 5.881076171078775e-06, "size_usd": 6.0, "liq": 37401.2327, "age_h": 26.187426388888888}
 {"t": "2026-10-05T18:23:07.181557+00:00", "event": "entry", "pool": "GgoFghiA6Ca7YNmG6dRxwKQWkZhRK8ND47EREz46arot", "name": "wXMR / USDC", "px": 552.2939741845058, "size_usd": 6.0, "liq": 135638.2623, "age_h": 616.7790930586111}
+{"t": "2026-10-05T18:44:19.730739+00:00", "event": "entry", "pool": "HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o", "name": "AGENTCAT / SOL", "px": 0.001268825440639613, "size_usd": 6.0, "liq": 112130.5932, "age_h": 43.87821649611111}
