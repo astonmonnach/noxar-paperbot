@@ -62,3 +62,4 @@
 {"t": "2026-10-07T18:35:34.001750+00:00", "event": "exit", "reason": "time", "pool": "BN7CfsGm6Vq9w8NibLZXRGW2tp5y2axwXuLAs85NGakf", "name": "baton / SOL", "entry_px": 0.009253207305008442, "exit_px": 0.008728543745395086, "size_usd": 6.0, "pnl": -0.35435383708374246}
 {"t": "2026-10-07T19:52:05.438605+00:00", "event": "entry", "pool": "DDz2aGTTYSADwTWnB8y5qBGxRL67GVBRXN4ZaSrD13Zs", "name": "ORBANCY / SOL", "px": 2.536520285994566e-06, "size_usd": 6.0, "liq": 390641.187, "age_h": 24.220916278888886}
 {"t": "2026-10-07T20:27:28.504434+00:00", "event": "entry", "pool": "3NBq9zynLPDQQDvYf8xiMbWywQfKZD7m7fyprY524efq", "name": "TWEETCRAFT / SOL", "px": 0.0013260583483877837, "size_usd": 6.0, "liq": 139827.3452, "age_h": 24.015976358055553}
+{"t": "2026-10-07T20:34:29.610734+00:00", "event": "entry", "pool": "EKj1S3BawtuC5meXY4qQi5Hu8rpBjWs3AwiZDMGRFq7k", "name": "RARI / SOL", "px": 0.001612650750001763, "size_usd": 6.0, "liq": 76642.6421, "age_h": 24.300406411388888}
