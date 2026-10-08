@@ -71,3 +71,4 @@
 {"t": "2026-10-07T22:39:18.286624+00:00", "event": "entry", "pool": "5csr5JWTCUAUrGE8rverZ9sH9LmBekyk3cb7BkPsnoZG", "name": "DARK / SOL", "px": 0.0037085014460946295, "size_usd": 6.0, "liq": 373186.1237, "age_h": 132.28675862111112}
 {"t": "2026-10-08T00:57:55.498763+00:00", "event": "exit", "reason": "stop", "pool": "J8sGjRKPaFHFxfLR44T3yFWaaZmohcgzzBLz1zfqGNzH", "name": "AUTON / SOL", "entry_px": 0.0036714573890764047, "exit_px": 0.0022836917737967064, "size_usd": 6.0, "pnl": -2.2772561907325866}
 {"t": "2026-10-08T01:12:18.880599+00:00", "event": "entry", "pool": "8xdUQovzoTCfH3Q1JbZHorBFASLKxjBNiDpwSD5xrmKF", "name": "GWA / SOL", "px": 0.00029010870180320916, "size_usd": 6.0, "liq": 49257.803, "age_h": 24.11484231416667}
+{"t": "2026-10-08T01:48:43.796368+00:00", "event": "entry", "pool": "EjMdroSEBTcEaRpzH7j7Fo1WLmsE7yrUuwqUnMmCUP8p", "name": "TWEETCRAFT / SOL", "px": 0.00014879310548142566, "size_usd": 6.0, "liq": 228910.5825, "age_h": 24.137111641944447}
