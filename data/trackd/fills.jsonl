@@ -93,3 +93,4 @@
 {"t": "2026-10-08T22:25:07.139577+00:00", "event": "exit", "reason": "time", "pool": "2TSKUHmF9466AoCgTZ8syoBbNyez6tVvZkZ9WHfzbWa4", "name": "HIGGS / SOL", "entry_px": 3.1328818114565206e-06, "exit_px": 3.125069138609996e-06, "size_usd": 6.0, "pnl": -0.02992518703241842}
 {"t": "2026-10-08T23:21:06.261518+00:00", "event": "entry", "pool": "DaQs1pBCttuMmZTHoX683LkaPnzxog1969j4Q1KfUxeT", "name": "Anthropic / SOL", "px": 2.3574910639685497e-06, "size_usd": 6.0, "liq": 348748.9125, "age_h": 24.097897189166666}
 {"t": "2026-10-09T02:19:46.470872+00:00", "event": "entry", "pool": "FTmwv748VxVVrRohjYzvdfyL4SXP3C6QTnHSem5QhewZ", "name": "BORDR / SOL", "px": 0.0015816452019786877, "size_usd": 6.0, "liq": 83060.871, "age_h": 24.0523312}
+{"t": "2026-10-09T04:49:24.965278+00:00", "event": "entry", "pool": "FSJZEYALF2DUSWjUU7jBbQfEnpGNBvBm56qLWohTCLga", "name": "CAPYBARA / SOL", "px": 0.0002549561563520727, "size_usd": 6.0, "liq": 66498.2316, "age_h": 24.028994053055555}
