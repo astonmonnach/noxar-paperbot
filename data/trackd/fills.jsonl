@@ -96,3 +96,4 @@
 {"t": "2026-10-09T04:49:24.965278+00:00", "event": "entry", "pool": "FSJZEYALF2DUSWjUU7jBbQfEnpGNBvBm56qLWohTCLga", "name": "CAPYBARA / SOL", "px": 0.0002549561563520727, "size_usd": 6.0, "liq": 66498.2316, "age_h": 24.028994053055555}
 {"t": "2026-10-09T07:43:30.025580+00:00", "event": "exit", "reason": "stop", "pool": "FTmwv748VxVVrRohjYzvdfyL4SXP3C6QTnHSem5QhewZ", "name": "BORDR / SOL", "entry_px": 0.0015816452019786877, "exit_px": 0.000998912587504849, "size_usd": 6.0, "pnl": -2.2200803133741744}
 {"t": "2026-10-09T07:43:30.025580+00:00", "event": "entry", "pool": "AwrrWN6ybRCvWbuGgq7x2VapYd4ivAno8mzLHjW3rdZf", "name": "PQC / SOL", "px": 0.001521704845524519, "size_usd": 6.0, "liq": 128990.9296, "age_h": 28.47439137388889}
+{"t": "2026-10-09T09:43:42.449483+00:00", "event": "entry", "pool": "6a8JPVVhLmTLbX9GduJgZi9t5g6TTZFTwUrv2uHrDJxT", "name": "HeeHaw / SOL", "px": 0.0019253702660579283, "size_usd": 6.0, "liq": 112709.244, "age_h": 941.3456183541667}
