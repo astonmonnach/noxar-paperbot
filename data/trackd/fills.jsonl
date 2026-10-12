@@ -138,3 +138,4 @@
 {"t": "2026-10-12T17:01:09.543241+00:00", "event": "entry", "pool": "CWbYDVNWbBWqhJ6NCwdLuRT9rwpBa3pwtN1MV32p3DfH", "name": "DOPE / SOL", "px": 1.3335566454734823e-06, "size_usd": 6.0, "liq": 203048.871, "age_h": 24.986890850833333}
 {"t": "2026-10-12T17:01:09.543241+00:00", "event": "entry", "pool": "GgoFghiA6Ca7YNmG6dRxwKQWkZhRK8ND47EREz46arot", "name": "wXMR / USDC", "px": 530.0567612496278, "size_usd": 6.0, "liq": 99839.0, "age_h": 783.4093146991667}
 {"t": "2026-10-12T17:01:09.543241+00:00", "event": "entry", "pool": "J2XBZkpC7ygBQiPw2MWWCqiVJn9i44b8GwtTRoFV1ijj", "name": "DOPE / SOL", "px": 0.0008539785365584384, "size_usd": 6.0, "liq": 97079.3641, "age_h": 27.251411938055554}
+{"t": "2026-10-12T18:22:59.042004+00:00", "event": "entry", "pool": "EXkXjtgftCw4Lm39AbamKf2UTk2AB7w3EQkZPPRiLqgE", "name": "Nuts / SOL", "px": 1.2990386348999508e-06, "size_usd": 6.0, "liq": 183496.8412, "age_h": 24.067134819166668}
