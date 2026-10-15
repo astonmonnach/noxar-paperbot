@@ -1,5 +1,5 @@
 {
-  "equity": 217.27723729085068,
+  "equity": 216.8421707447975,
   "cash": 140.22678399332432,
   "open": {
     "FRvYyNTGzQRQfsbDZntcqQwHJpmHZKtMh7N85uDG1i4H": {
@@ -11,7 +11,7 @@
       "stop_px": 3.111535247956144e-05,
       "base": "solana_69ZhASRy7GKVd1XN5MdpvmMbmkQ7AKTpKzDbiqUbNM1B",
       "last_px": 5.639466073760903e-05,
-      "last_px_at": "2026-10-15T22:58:19.189730+00:00",
+      "last_px_at": "2026-10-15T23:05:33.379012+00:00",
       "peak_px": 5.639466073760903e-05
     },
     "D3vzKTEJntE3wSu4QaPd79e2bnifnHggVDVewu1ukkAJ": {
@@ -23,7 +23,7 @@
       "stop_px": 3.743102603262098e-05,
       "base": "solana_6TCLXY3Yxb2N5428Abmo9Af7c3DQYnSbkBwKMWcjk9tF",
       "last_px": 7.08718156646817e-05,
-      "last_px_at": "2026-10-15T22:58:19.189730+00:00",
+      "last_px_at": "2026-10-15T23:05:33.379012+00:00",
       "peak_px": 7.13795579680742e-05
     },
     "sY9wJBe2oA24GUdVSL4EM9UewGCxdu5s6zj8XQVecNU": {
@@ -35,7 +35,7 @@
       "stop_px": 4.55691146417224e-05,
       "base": "solana_5QwfcMRFxSf7NeueUgajA82ELre4ynuQoeByGRdV6A2",
       "last_px": 6.993150146437353e-05,
-      "last_px_at": "2026-10-15T22:58:19.189730+00:00",
+      "last_px_at": "2026-10-15T23:05:33.379012+00:00",
       "peak_px": 7.010633021803446e-05
     },
     "EDwpA3irtJVS1Xs125Yb3Pd9FfRv7EDoghfhrqL1YA6a": {
@@ -47,7 +47,7 @@
       "stop_px": 4.6631304614202536e-05,
       "base": "solana_EqV63GKdozZgdzBoJyDvPyUa5iTUnBfwEN4XyuRVHs91",
       "last_px": 7.156156472542112e-05,
-      "last_px_at": "2026-10-15T22:58:19.189730+00:00",
+      "last_px_at": "2026-10-15T23:05:33.379012+00:00",
       "peak_px": 7.174046863723466e-05
     },
     "D1rDVEp78cvBctREKZmpLdRnPNe3Ufmgq6ZjMYye9kmq": {
@@ -58,8 +58,8 @@
       "size_usd": 6.0,
       "stop_px": 0.019297960723460253,
       "base": "solana_HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7",
-      "last_px": 0.03772453995913595,
-      "last_px_at": "2026-10-15T22:58:19.189730+00:00",
+      "last_px": 0.039068882149978244,
+      "last_px_at": "2026-10-15T23:05:33.379012+00:00",
       "peak_px": 0.04211827526760438
     },
     "AeQAcZb73pUe7BF7NyZEDKV9xnS78ckrhpbYu8uLDHds": {
@@ -82,8 +82,8 @@
       "size_usd": 6.0,
       "stop_px": 0.0009634331503645572,
       "base": "solana_ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-      "last_px": 0.0022831945844824105,
-      "last_px_at": "2026-10-15T22:36:32.257111+00:00",
+      "last_px": 0.0022787345556331837,
+      "last_px_at": "2026-10-15T23:05:33.379012+00:00",
       "peak_px": 0.003055631955834664
     },
     "bFsVzSMig72r5fBBTzXRpkvpbntKnj9VMrtA7EVwJrU": {
@@ -94,8 +94,8 @@
       "size_usd": 6.0,
       "stop_px": 0.00659342452880191,
       "base": "solana_Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
-      "last_px": 0.011274334561704983,
-      "last_px_at": "2026-10-15T22:43:46.343847+00:00",
+      "last_px": 0.010777792523946516,
+      "last_px_at": "2026-10-15T23:05:33.379012+00:00",
       "peak_px": 0.011346976338942015
     },
     "FpRcdzEgiHLpo4LPTWDkhq86fCuwoejFXnmoH9cSZZ6Q": {
@@ -118,8 +118,8 @@
       "size_usd": 6.0,
       "stop_px": 0.0029061784152914216,
       "base": "solana_2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
-      "last_px": 0.0059594149405673355,
-      "last_px_at": "2026-10-15T22:36:32.257111+00:00",
+      "last_px": 0.005665077358763093,
+      "last_px_at": "2026-10-15T23:05:33.379012+00:00",
       "peak_px": 0.006723627013630858
     },
     "FsYX4ADMK3ebLwdjhqDx6MBDE7o8gL5gWZUTJX2L6S6q": {
@@ -138,9 +138,8 @@
   "closed": 86,
   "realised": -93.77321600667571,
   "started": "2026-10-03T21:30:51.484346+00:00",
-  "unrealised": 11.05045329752636,
+  "unrealised": 10.615386751473196,
   "recent_exits": {
-    "solana_C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": "2026-10-13T23:04:08.300502+00:00",
     "solana_Ex6G49vhgRhGcSHtviQz36yDvnKvRMUGvQnpTT4gdEp": "2026-10-14T08:03:44.383032+00:00",
     "solana_E92fvVYzA4AumJnp1ZsdVN3mfnNdDFSs3rP9gsUVxmC7": "2026-10-14T10:53:05.726376+00:00",
     "solana_F8MER9uGVeGf4uQTjndRTBkHvi8AetsYV7PTEt5cxRvz": "2026-10-14T12:47:35.960851+00:00",
