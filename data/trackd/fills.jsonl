@@ -187,3 +187,4 @@
 {"t": "2026-10-16T02:32:46.376972+00:00", "event": "entry", "pool": "Fk5MuGv2H3Qpt6AxdhS2KHgDL2os424BvfEoqFNTdv9Y", "name": "FTR / SOL", "px": 0.005364731520397688, "size_usd": 6.0, "liq": 256002.5731, "age_h": 24.4184493575}
 {"t": "2026-10-16T05:15:44.104472+00:00", "event": "exit", "reason": "time", "pool": "D3vzKTEJntE3wSu4QaPd79e2bnifnHggVDVewu1ukkAJ", "name": "RSGP / SOL", "entry_px": 5.758619389633997e-05, "exit_px": 7.08718156646817e-05, "size_usd": 6.0, "pnl": 1.3657900974781922}
 {"t": "2026-10-16T05:43:42.886921+00:00", "event": "entry", "pool": "5hgao1gkk4742tsPbJaJoXtKViRNVYw6KPEn2Jvm4HaM", "name": "NIHILISM / SOL", "px": 1.1680424384234261e-06, "size_usd": 6.0, "liq": 174595.0054, "age_h": 24.007262677222222}
+{"t": "2026-10-16T14:52:21.806224+00:00", "event": "entry", "pool": "D9NCkN3unPTVLtA56Y68J2cXisje9yyYe61gMM2HCHwJ", "name": "STREAM / SOL", "px": 0.008526486969147212, "size_usd": 6.0, "liq": 292349.5936, "age_h": 43.5871141625}
