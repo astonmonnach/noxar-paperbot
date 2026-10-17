@@ -198,3 +198,4 @@
 {"t": "2026-10-16T20:30:46.795035+00:00", "event": "entry", "pool": "Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw", "name": "ALLOX / SOL", "px": 5.09731719699527e-05, "size_usd": 6.0, "liq": 293169.0477, "age_h": 24.04842275777778}
 {"t": "2026-10-16T21:34:44.167169+00:00", "event": "entry", "pool": "7UERUjSX2cipj7MgPEWyRrRfsGFDac4bu74M4JC1LpFz", "name": "1 / SOL", "px": 0.001466881418335525, "size_usd": 6.0, "liq": 103935.1977, "age_h": 24.534729450833332}
 {"t": "2026-10-16T23:10:19.653635+00:00", "event": "exit", "reason": "time", "pool": "sY9wJBe2oA24GUdVSL4EM9UewGCxdu5s6zj8XQVecNU", "name": "ATTENTION / SOL", "entry_px": 7.010633021803446e-05, "exit_px": 6.993150146437353e-05, "size_usd": 6.0, "pnl": -0.02992518703241842}
+{"t": "2026-10-17T02:09:43.425853+00:00", "event": "entry", "pool": "BCiyK7LarB1yUbGngmQGJq9CQawiTDQ1i65HDnfhiqM5", "name": "FTR / SOL", "px": 0.0005632999300495759, "size_usd": 6.0, "liq": 68079.5229, "age_h": 24.065147895555558}
