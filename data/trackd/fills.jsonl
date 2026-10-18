@@ -213,3 +213,4 @@
 {"t": "2026-10-18T00:07:33.833910+00:00", "event": "entry", "pool": "BHUK9DCiq7WrwUwtb5THMvw4LDYmwH823cV2gcJw949k", "name": "onboard / SOL", "px": 0.0002810818924224825, "size_usd": 6.0, "liq": 26497.0202, "age_h": 27.98874847361111}
 {"t": "2026-10-18T00:07:33.833910+00:00", "event": "entry", "pool": "FpRcdzEgiHLpo4LPTWDkhq86fCuwoejFXnmoH9cSZZ6Q", "name": "DOPE / SOL", "px": 0.00392844458533971, "size_usd": 6.0, "liq": 339980.1241, "age_h": 150.36624845416668}
 {"t": "2026-10-18T01:00:55.022978+00:00", "event": "entry", "pool": "G4jM2ZpifMh9pxkphByBwX6Z2oZouvYnZ1LwQssWh8mt", "name": "ELON / SOL", "px": 0.00319796739720369, "size_usd": 6.0, "liq": 31962.0734, "age_h": 31.392556406666667}
+{"t": "2026-10-18T01:50:45.057015+00:00", "event": "exit", "reason": "trail", "pool": "BHUK9DCiq7WrwUwtb5THMvw4LDYmwH823cV2gcJw949k", "name": "onboard / SOL", "entry_px": 0.0002810818924224825, "exit_px": 0.00033219077124575514, "size_usd": 6.0, "pnl": 1.0732474040608828}
