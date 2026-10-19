@@ -1,6 +1,6 @@
 {
-  "equity": 207.7549501164334,
-  "cash": 102.42336384657204,
+  "equity": 207.38360912240142,
+  "cash": 106.3085404846134,
   "open": {
     "Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw": {
       "pool": "Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw",
@@ -11,7 +11,7 @@
       "stop_px": 3.313256178046925e-05,
       "base": "solana_DneSmn3NenxC8CMm4vTJUpTYfigZZKWWbyymq8MjFkw3",
       "last_px": 0.00016296058890559473,
-      "last_px_at": "2026-10-19T16:51:35.962337+00:00",
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 0.00016301301057738222
     },
     "BCiyK7LarB1yUbGngmQGJq9CQawiTDQ1i65HDnfhiqM5": {
@@ -23,7 +23,7 @@
       "stop_px": 0.00036614495453222436,
       "base": "solana_Ccr1VZHsWVDGrHLy4QYJrvfCqgozK9NrSCeyvQBSfgma",
       "last_px": 0.0005618951920694025,
-      "last_px_at": "2026-10-19T16:51:35.962337+00:00",
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 0.0005632999300495759
     },
     "9DMCBmDYtHbiuL1ctf3M4txTV5ZmdqXipkTgQ1LdFYyv": {
@@ -35,7 +35,7 @@
       "stop_px": 3.0801898956885973e-05,
       "base": "solana_CfRbEWpLB8pWUwrkEGMwMtVBFzAsgJhs4LRNpChUBBDi",
       "last_px": 7.154604528463666e-05,
-      "last_px_at": "2026-10-19T16:51:35.962337+00:00",
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 7.154604528463666e-05
     },
     "7TeU4ZhdfKLfatPmtKNkaZASpn4c4xQRbjz7AHsP3udy": {
@@ -47,7 +47,7 @@
       "stop_px": 0.0001251702647017779,
       "base": "solana_8Mk3FLb2Qyr5sMQMEKgoC9Gtof6dcRnEwpAKf8Xo9DR4",
       "last_px": 0.00019208941446656884,
-      "last_px_at": "2026-10-19T16:51:35.962337+00:00",
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 0.00019256963800273524
     },
     "D4SvncT8LJSYgX3PJBVPVAhQJHiyR6BLgbkc5eDyBrQt": {
@@ -59,7 +59,7 @@
       "stop_px": 8.470676277192871e-07,
       "base": "solana_Q5g5GLQ5UjpTYNgfkcvgwjJPFwkz8aRzsCoxZtfomGv",
       "last_px": 1.299931137877287e-06,
-      "last_px_at": "2026-10-19T16:51:35.962337+00:00",
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 1.3031809657219801e-06
     },
     "C7w7BLafY2EbAizRmiUa4P825oc4SXMbMxnDFjt3h9a4": {
@@ -71,7 +71,7 @@
       "stop_px": 0.00039075108162029966,
       "base": "solana_4mZkaSmXqjudgGMktiryMaBNzy4HTvYtK1r141egoBcv",
       "last_px": 0.0005996563692619217,
-      "last_px_at": "2026-10-19T16:36:46.363649+00:00",
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 0.0006011555101850764
     },
     "915vFn7arMi1QypjDawDzrRffGgFNnrC7DW63ZzsaGFc": {
@@ -94,8 +94,8 @@
       "size_usd": 6.0,
       "stop_px": 5.697542797610486,
       "base": "solana_1NJMqVM4PadjuzYmeB7zV7q7DV8oB3ExaQCd9x6KsLz",
-      "last_px": 8.638048912566381,
-      "last_px_at": "2026-10-19T16:51:35.962337+00:00",
+      "last_px": 8.66390059994953,
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 8.807225405814686
     },
     "2oaQZSyrPESA5Ud6WunKnm8qewhxRmoys6r9X9oR7bMf": {
@@ -107,7 +107,7 @@
       "stop_px": 8.089897674446452e-07,
       "base": "solana_BP172LqcuPuADw7WtYg961dVQ778xC6zc1pvm6NfZSR",
       "last_px": 1.2414959024663652e-06,
-      "last_px_at": "2026-10-19T16:44:33.692366+00:00",
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 1.244599642222531e-06
     },
     "7jk9UyADZ1vTRUha9aoisydHzPvRQ4WdggKLVNvbKcqW": {
@@ -130,8 +130,8 @@
       "size_usd": 6.0,
       "stop_px": 0.00037593303200907183,
       "base": "solana_DGNHqQS2buSPcNzZDhDkzUfpMe6syWzb8hrjv9yJqUQc",
-      "last_px": 0.0005270857849261091,
-      "last_px_at": "2026-10-19T16:44:33.692366+00:00",
+      "last_px": 0.0005103474940903414,
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 0.0006180245981473959
     },
     "9sRABaFrHnF5rk9gG5ekzJCR9CYkeCWKV8BPTrsyd4JA": {
@@ -143,7 +143,7 @@
       "stop_px": 2.9985403480276667e-05,
       "base": "solana_Aw4QbwxTvCjgUpJpXDq91okZrNikxy8oFu8jvHDyUtq7",
       "last_px": 6.108468478065021e-05,
-      "last_px_at": "2026-10-19T16:51:35.962337+00:00",
+      "last_px_at": "2026-10-19T16:58:45.147472+00:00",
       "peak_px": 6.193102363784613e-05
     },
     "GgoFghiA6Ca7YNmG6dRxwKQWkZhRK8ND47EREz46arot": {
@@ -158,18 +158,6 @@
       "last_px_at": "2026-10-19T16:51:35.962337+00:00",
       "peak_px": 603.6785022312605
     },
-    "2jAq7KMy4eqxex1DQHo1nSybEv2yTY94dUDKmvZ2yUb3": {
-      "pool": "2jAq7KMy4eqxex1DQHo1nSybEv2yTY94dUDKmvZ2yUb3",
-      "name": "FTR / SOL",
-      "entry_px": 0.0017489854914222963,
-      "entry_at": "2026-10-19T06:05:56.398144+00:00",
-      "size_usd": 6.0,
-      "stop_px": 0.0011368405694244927,
-      "base": "solana_DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump",
-      "last_px": 0.001195305387933123,
-      "last_px_at": "2026-10-19T16:44:33.692366+00:00",
-      "peak_px": 0.0018249032563387945
-    },
     "2nf4py6WW1RNZxs9hUuJ9DSDXW9Lc2vud9BNh7Pwt3wX": {
       "pool": "2nf4py6WW1RNZxs9hUuJ9DSDXW9Lc2vud9BNh7Pwt3wX",
       "name": "SHADE / SOL",
@@ -183,10 +171,10 @@
       "peak_px": 0.00019776788861513
     }
   },
-  "closed": 110,
-  "realised": -107.57663615342798,
+  "closed": 111,
+  "realised": -109.69145951538663,
   "started": "2026-10-03T21:30:51.484346+00:00",
-  "unrealised": 15.331586269861347,
+  "unrealised": 17.07506863778802,
   "recent_exits": {
     "solana_Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "2026-10-17T20:32:20.282024+00:00",
     "solana_5ubruMYpgKqw9ip5J1qrXbVGmMdn2VCsMg421B4bpump": "2026-10-18T01:50:45.057015+00:00",
@@ -198,6 +186,7 @@
     "solana_55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": "2026-10-19T01:14:07.433455+00:00",
     "solana_3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump": "2026-10-19T02:39:44.305919+00:00",
     "solana_PzW22c4YS77nD9A14SugXv3BoSL1amGV2h1ghqSD7j6": "2026-10-19T05:50:31.760866+00:00",
-    "solana_TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": "2026-10-19T15:51:47.174639+00:00"
+    "solana_TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": "2026-10-19T15:51:47.174639+00:00",
+    "solana_DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump": "2026-10-19T16:58:45.147472+00:00"
   }
 }
