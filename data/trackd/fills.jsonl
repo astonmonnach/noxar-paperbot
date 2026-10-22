@@ -284,3 +284,4 @@
 {"t": "2026-10-22T20:34:46.579857+00:00", "event": "entry", "pool": "FTmwv748VxVVrRohjYzvdfyL4SXP3C6QTnHSem5QhewZ", "name": "BORDR / SOL", "px": 0.0017892535243577512, "size_usd": 6.0, "liq": 302117.9596, "age_h": 354.3203010208333}
 {"t": "2026-10-22T20:42:21.010236+00:00", "event": "exit", "reason": "stop", "pool": "ELnpdJeWer4xsHUff93WPnmECYpDXE4GW1y2QmXtzFBm", "name": "PHP / SOL", "entry_px": 0.0011057500092694205, "exit_px": 0.0006201526031624575, "size_usd": 6.0, "pnl": -2.6433522054595264}
 {"t": "2026-10-22T21:05:23.265678+00:00", "event": "entry", "pool": "H37FsZxA5TzoMxXzwMe1HgsPB2FHyuDzK34UiXtfLhFX", "name": "PANGEA / SOL", "px": 0.0014568496108126857, "size_usd": 6.0, "liq": 79789.8371, "age_h": 24.065897333611108}
+{"t": "2026-10-22T22:31:11.972677+00:00", "event": "entry", "pool": "4SMPAuRkMTMFiMnW1oDcDQdi54CC9R4of9xtr4phiYiG", "name": "CYBER / SOL", "px": 0.0002640216671468562, "size_usd": 6.0, "liq": 52986.512, "age_h": 24.10085948111111}
