@@ -281,3 +281,4 @@
 {"t": "2026-10-22T16:47:24.972401+00:00", "event": "entry", "pool": "5zbcXagpc7XBnDMUVak4Qo2hYh8pRJo2exq43Lpf5Aj5", "name": "Macca / SOL", "px": 0.0012353227827926931, "size_usd": 6.0, "liq": 105105.7831, "age_h": 169.39587431472222}
 {"t": "2026-10-22T19:33:34.312846+00:00", "event": "entry", "pool": "Ds6CaQYBQL7GjDATf9CVH189S9ef1mz7dkTrSoV7RWEM", "name": "KIMCHIBULL / SOL", "px": 0.0002708678176292284, "size_usd": 6.0, "liq": 49883.1687, "age_h": 24.128920782222224}
 {"t": "2026-10-22T19:33:34.312846+00:00", "event": "entry", "pool": "E6azntvAF5m7DaVo7Lwh5y1pm3uZ6fsBWALWMSEG3Hwz", "name": "AXIS / SOL", "px": 0.00012964483377866131, "size_usd": 6.0, "liq": 61861.717, "age_h": 24.15530966888889}
+{"t": "2026-10-22T20:34:46.579857+00:00", "event": "entry", "pool": "FTmwv748VxVVrRohjYzvdfyL4SXP3C6QTnHSem5QhewZ", "name": "BORDR / SOL", "px": 0.0017892535243577512, "size_usd": 6.0, "liq": 302117.9596, "age_h": 354.3203010208333}
