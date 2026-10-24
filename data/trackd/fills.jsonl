@@ -320,3 +320,4 @@
 {"t": "2026-10-24T16:41:20.979622+00:00", "event": "entry", "pool": "CnA7BFovX8q8gv2z9QEndo8hPi1PD5nqhABRH4rSnGEc", "name": "HOOKED / SOL", "px": 0.0012474627272779583, "size_usd": 6.0, "liq": 65883.6462, "age_h": 523.7543509408333}
 {"t": "2026-10-24T17:48:59.661054+00:00", "event": "entry", "pool": "3hYoRdncnVMtUbPJvEoCayYSEaM2cusJt3RSuAjEXCpi", "name": "RYAN / SOL", "px": 0.001190707433258186, "size_usd": 6.0, "liq": 63270.9009, "age_h": 24.12073410611111}
 {"t": "2026-10-24T18:26:57.693899+00:00", "event": "entry", "pool": "4S91d1Dwq4fMR84wqHCwquVtwyqkCz12yvdP114diSCr", "name": "BIBI / SOL", "px": 1.0639470129121863e-06, "size_usd": 6.0, "liq": 159405.6369, "age_h": 24.075898847777776}
+{"t": "2026-10-24T20:30:22.466189+00:00", "event": "entry", "pool": "GUkDEvSyoJJ5yFHUYKuePjwTTAZYLBmWsHQ2fYaCMKYm", "name": "TRUTH / SOL", "px": 4.5679012040846165e-05, "size_usd": 6.0, "liq": 21044.0287, "age_h": 24.005663015833335}
