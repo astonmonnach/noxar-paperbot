@@ -317,3 +317,4 @@
 {"t": "2026-10-24T12:29:45.253120+00:00", "event": "entry", "pool": "BpAzyay24ZECqQzcp346gUWY34ga3RyTBtDLoWSHrXyn", "name": "NAMI / SOL", "px": 0.0001633871196105936, "size_usd": 6.0, "liq": 73704.0551, "age_h": 24.04102567}
 {"t": "2026-10-24T14:04:47.641988+00:00", "event": "entry", "pool": "BN7CfsGm6Vq9w8NibLZXRGW2tp5y2axwXuLAs85NGakf", "name": "baton / SOL", "px": 0.0050167393044349175, "size_usd": 6.0, "liq": 399364.4857, "age_h": 1067.8751611344444}
 {"t": "2026-10-24T15:56:59.197061+00:00", "event": "exit", "reason": "time", "pool": "F1mbBZYKXGFx5nraY3cK4RgNR5EuShntQ8xDKDD5HY1z", "name": "TTWO / USDC", "entry_px": 205.7029490995005, "exit_px": 204.81209315281777, "size_usd": 6.0, "pnl": -0.04091976859951085}
+{"t": "2026-10-24T16:41:20.979622+00:00", "event": "entry", "pool": "CnA7BFovX8q8gv2z9QEndo8hPi1PD5nqhABRH4rSnGEc", "name": "HOOKED / SOL", "px": 0.0012474627272779583, "size_usd": 6.0, "liq": 65883.6462, "age_h": 523.7543509408333}
