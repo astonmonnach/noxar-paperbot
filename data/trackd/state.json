@@ -1,6 +1,6 @@
 {
-  "equity": 90743.07011542043,
-  "cash": 90670.73281605635,
+  "equity": 90746.61346792972,
+  "cash": 90664.73281605635,
   "open": {
     "E8hvVjkB1R3zcycFCTP7Zmuw3fcmBd59ci7rmWLxqrWV": {
       "pool": "E8hvVjkB1R3zcycFCTP7Zmuw3fcmBd59ci7rmWLxqrWV",
@@ -11,7 +11,7 @@
       "stop_px": 9.597942716783498e-06,
       "base": "solana_8wATzNsH7MmdReZ6T7Z6KfHP8PtZH1NpQFv55jzsBb8W",
       "last_px": 1.472924261159946e-05,
-      "last_px_at": "2026-10-24T17:41:33.109507+00:00",
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
       "peak_px": 1.4766065718128458e-05
     },
     "5zbcXagpc7XBnDMUVak4Qo2hYh8pRJo2exq43Lpf5Aj5": {
@@ -22,8 +22,8 @@
       "size_usd": 6.0,
       "stop_px": 0.0008029598088152506,
       "base": "solana_AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
-      "last_px": 0.0014675111930168437,
-      "last_px_at": "2026-10-24T17:41:33.109507+00:00",
+      "last_px": 0.0014860641430334577,
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
       "peak_px": 0.0017812850713661013
     },
     "FTmwv748VxVVrRohjYzvdfyL4SXP3C6QTnHSem5QhewZ": {
@@ -34,8 +34,8 @@
       "size_usd": 6.0,
       "stop_px": 0.0011630147908325383,
       "base": "solana_6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr",
-      "last_px": 0.0013201207499944994,
-      "last_px_at": "2026-10-24T17:41:33.109507+00:00",
+      "last_px": 0.001322833103675697,
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
       "peak_px": 0.002307148650347828
     },
     "3AoTmvEZxkRWRbT9tmrKWeD2kBaGXUrYHuHdx79zKXSe": {
@@ -46,8 +46,8 @@
       "size_usd": 6.0,
       "stop_px": 167.62032438770132,
       "base": "solana_XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2",
-      "last_px": 252.08257678646868,
-      "last_px_at": "2026-10-24T17:41:33.109507+00:00",
+      "last_px": 252.1375990855714,
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
       "peak_px": 257.8774221349251
     },
     "4n9rkpKkPUGFquBh6UXqNYbaCNyBcFq9VwNbutwGX5d6": {
@@ -58,8 +58,8 @@
       "size_usd": 6.0,
       "stop_px": 0.052184926486869426,
       "base": "solana_DoGEV7LASBkQbibMc5k5vKnTZoMg423GpJ5QtJEGfm7R",
-      "last_px": 0.07613084860930494,
-      "last_px_at": "2026-10-24T17:41:33.109507+00:00",
+      "last_px": 0.07666248699153456,
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
       "peak_px": 0.08067143597632939
     },
     "5aWyNyCaZEUDMRb5bzxBw6dcofYPJGGhCEUisKNPVjdh": {
@@ -71,7 +71,7 @@
       "stop_px": 1.9172720618999587e-05,
       "base": "solana_nB41BqzvvFoRAus2x3WCv55jpvyvpWLwV4GRGRMWwdw",
       "last_px": 2.942293592019887e-05,
-      "last_px_at": "2026-10-24T17:33:59.047505+00:00",
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
       "peak_px": 2.9496493259999364e-05
     },
     "8AW7UaDsPZCshkAXVn2uGvLixZHZy9dHgKc43rVHnCPt": {
@@ -130,9 +130,9 @@
       "size_usd": 6.0,
       "stop_px": 0.0032608805478826965,
       "base": "solana_Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
-      "last_px": 0.005246873194400991,
-      "last_px_at": "2026-10-24T17:41:33.109507+00:00",
-      "peak_px": 0.005246873194400991
+      "last_px": 0.0056419613361124036,
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
+      "peak_px": 0.0056419613361124036
     },
     "CnA7BFovX8q8gv2z9QEndo8hPi1PD5nqhABRH4rSnGEc": {
       "pool": "CnA7BFovX8q8gv2z9QEndo8hPi1PD5nqhABRH4rSnGEc",
@@ -142,15 +142,27 @@
       "size_usd": 6.0,
       "stop_px": 0.000810850772730673,
       "base": "solana_C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE",
-      "last_px": 0.001405197048211519,
-      "last_px_at": "2026-10-24T17:26:24.011431+00:00",
-      "peak_px": 0.0015728787563143555
+      "last_px": 0.0020176122157163807,
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
+      "peak_px": 0.0020176122157163807
+    },
+    "3hYoRdncnVMtUbPJvEoCayYSEaM2cusJt3RSuAjEXCpi": {
+      "pool": "3hYoRdncnVMtUbPJvEoCayYSEaM2cusJt3RSuAjEXCpi",
+      "name": "RYAN / SOL",
+      "entry_px": 0.001190707433258186,
+      "entry_at": "2026-10-24T17:48:59.661054+00:00",
+      "size_usd": 6.0,
+      "stop_px": 0.000773959831617821,
+      "base": "solana_66LLtmfCJqDhBA8e5beRmhnGyP8KEg2uDZ5j5jFFmYKM",
+      "last_px": 0.001187738088038091,
+      "last_px_at": "2026-10-24T17:48:59.661054+00:00",
+      "peak_px": 0.001190707433258186
     }
   },
   "closed": 154,
   "realised": 90442.73281605635,
   "started": "2026-10-03T21:30:51.484346+00:00",
-  "unrealised": 0.33729936407738137,
+  "unrealised": 3.880651873370539,
   "recent_exits": {
     "solana_Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": "2026-10-22T20:42:21.010236+00:00",
     "solana_CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": "2026-10-23T01:21:49.452062+00:00",
